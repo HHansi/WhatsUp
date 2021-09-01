@@ -5,7 +5,7 @@ import numpy as np
 
 from algo.change_measures.dendrogram_level_calculation import get_normalized_dendrogram_level_similarity, \
     get_local_dendrogram_level_similarity
-from algo.utils.word_embedding_util import get_embedding
+from algo.utils.word_embedding_utils import get_embedding
 
 
 def get_vectors_for_words(words, model):
