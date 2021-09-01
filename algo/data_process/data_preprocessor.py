@@ -137,9 +137,9 @@ def remove_symbol(text, symbol):
     return text.replace(symbol, "")
 
 
-def preprocessing_flow(text):
+def data_cleaning_flow(text):
     """
-    Preprocessing flow defined to process text.
+    Flow defined to clean text.
     1. Remove retweet notations (e.g., RT @abc:)
     2. Tokenize using TweetTokenizer without preserving case and with length reduction
     3. Remove links
@@ -164,9 +164,9 @@ def preprocessing_flow(text):
     return text
 
 
-def preprocess_bulk(input_file_path, output_file_path):
+def clean_bulk(input_file_path, output_file_path):
     """
-    Preprocess data in input_file and save to the output_file
+    Clean data in input_file and save to the output_file
 
     parameters
     -----------
@@ -201,7 +201,7 @@ def preprocess_bulk(input_file_path, output_file_path):
     for row in input_reader:
         text = row[text_column_index]
         if text != '_na_':
-            processed_text = preprocessing_flow(text)
+            processed_text = data_cleaning_flow(text)
             output_writer.writerow([row[id_column_index], row[date_column_index], processed_text])
 
 
