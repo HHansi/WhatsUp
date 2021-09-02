@@ -35,7 +35,7 @@ def extract_gt_tokens(text):
 
 def load_gt(folder_path):
     """
-    Method to read GT data into a dictionary formatted as (time-window: labels)
+    Method to read GT data into a dictionary formatted as {time-window: labels}
 
     parameters
     -----------

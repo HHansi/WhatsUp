@@ -53,7 +53,7 @@ def load_events(file_path):
     :param file_path: str
         Path to .txt file
     :return: dictionary
-        Dictionary of event words- [incrementing ID: [event words]]
+        Dictionary of event words- {incrementing ID: [event words]}
     """
     event_words = dict()
     try:
