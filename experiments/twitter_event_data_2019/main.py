@@ -1,7 +1,7 @@
 # Created by Hansi at 7/1/2021
 import os
 
-from algo.embed2group import full_flow
+from algo.whatsup import full_flow
 from algo.embedding.model_learner import set_seed
 from algo.utils.file_utils import delete_create_folder
 from experiments.twitter_event_data_2019.args import DATA_FOLDER_PATH, TEMP_FOLDER, args, we_args, RANDOM_SEED
