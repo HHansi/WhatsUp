@@ -17,7 +17,7 @@ logging.getLogger("gensim").setLevel(logging.WARNING)
 
 def full_flow(data_file_path: str, args: dict, we_args: dict, output_folder_path: str):
     """
-    Embed2Group full flow
+    WhatsUp full flow
 
     parameters
     -----------
