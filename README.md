@@ -2,8 +2,10 @@
 
 WhatsUp is a a event resolution method for co-occurring events in social media data. 
 
-More details will be available with the paper "WhatsUp: An Event Resolution Approach for Co-occurring Events in Social 
-Media" which is under the review process currently. 
+For more details about this approach, please refer to the paper "[WhatsUp: An Event Resolution Approach for Co-occurring Events in Social 
+Media](https://www.sciencedirect.com/science/article/pii/S0020025523000014)"
+
+If you use this system, please consider citing this paper; reference details are given below.
 
 ## About
 This is a Python 3.7 implementation of WhatsUp. <br>
@@ -78,4 +80,18 @@ the following metrics will be calculated, covering different levels of granulari
 
 More details about these metrics are available in the paper.
 
-
+## Reference
+```
+@article{hettiarachchi2023whatsup,
+title = {{W}hats{U}p: An event resolution approach for co-occurring events in social media},
+journal = {Information Sciences},
+volume = {625},
+pages = {553-577},
+year = {2023},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2023.01.001},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025523000014},
+author = {Hansi Hettiarachchi and Mariam Adedoyin-Olowe and Jagdev Bhogal and Mohamed Medhat Gaber},
+keywords = {Word embedding, Dendrograms, Clustering, Social media},
+}
+```
